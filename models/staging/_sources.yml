@@ -1,0 +1,8 @@
+version: 2
+sources:
+- name: airbyte_internal
+  database: airbyte_internal  # specify the database where the source tables are located
+  tables:
+  - name: default_raw__stream_users
+  - name: default_raw__stream_products
+  - name: default_raw__stream_purchases
